@@ -115,7 +115,7 @@ const Viewer = () => {
       <directionalLight position={[5, 0, 0]} color='green' />
       <directionalLight position={[0, 0, 5]} color='red' />
       <directionalLight position={[0, -5, 0]} color='cyan' /> */}
-      <Model url='/sample.glb' />
+      <Model url='https://3d-objects-bim.s3.ap-south-1.amazonaws.com/FB_B_LSB_Dicke+Rippe.glb' />
       {/* <mesh>
         <boxGeometry args={[2, 2, 2]} />
         <meshStandardMaterial />
